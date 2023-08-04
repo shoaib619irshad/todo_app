@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card-child{
+    display: none;
+}
+.card:hover .card-child{
+    display: flex;
+    justify-content: space-between;
+}
+.error{
+overflow-wrap: break-word;
+overflow-y: scroll;
+}
